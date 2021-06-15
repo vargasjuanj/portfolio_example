@@ -1,0 +1,9 @@
+
+/* wrapper o contenedor */
+
+.wrapper{
+    max-inline-size: 1158px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin: auto;
+}
