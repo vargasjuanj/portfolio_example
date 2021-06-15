@@ -1,0 +1,17 @@
+.button-icon {
+  /* display: flex; */
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid var(--purple);
+  background: var(--white);
+  /* Al transformar de button a un ancla, pierde el color de fondo */
+  text-decoration: none;
+  /* para que no se suporponga el icono con  algun elemento, como el boton */
+  display: inline-block;
+}
+
+.button-icon img {
+  vertical-align: middle;
+  /*cuando colocamos una imagen dentro de un contenedor suele generar un espacio abajo, con esta propiedad se lo quitamos, quedando centrada la imagen y quita ese espacio, pero se puede usar flexbox tan solo con display: flex en el padre se soluciona */
+  /* El problema es que al reemplazar la etiqueta button por la ancla, se desproporciona todo el boton, y esta solución es la que funciona */
+}

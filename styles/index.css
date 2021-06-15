@@ -1,6 +1,7 @@
 /* Se dividen las responsabilidades */
 @import "button.css";
 @import "header.css";
+@import "icon.css";
 :root {
     /* Documentar estilos */
     /* los estilos del design system de Figma se colocarian como variables */
