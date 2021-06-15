@@ -23,7 +23,7 @@
     display: block;
 }
 
-            /*    FIRST MOBILE          */
+            /*    FIRST MOBILE             */
 
 /* El minimo, desde algunas tablas verticales en adelante */
 @media screen and (min-width: 768px) {
@@ -45,24 +45,24 @@
 
 @media screen and (min-width: 1024px) {
     .hero-image img{
-        inline-size: 500px;
-        block-size: 504px;
+        inline-size: 31.25rem;
+        block-size: 31.5rem;
     }
     
 }
 
 @media screen and (min-width: 1280px) {
     .hero-image img{
-        inline-size: 600px;
-        block-size: 608px;
+        inline-size: 37.5rem;
+        block-size: 38rem;
     }
     
 }
 
 @media screen and (min-width: 1366) {
     .hero-image img{
-        inline-size: 700px;
-        block-size: 716px;
+        inline-size: 43.75rem;
+        block-size: 44.75rem;
     }
     
 }

@@ -4,6 +4,7 @@
 @import "icon.css";
 @import "hero.css";
 @import "wrapper.css";
+@import "menu.css";
 :root {
     /* Documentar estilos */
     /* los estilos del design system de Figma se colocarian como variables */
