@@ -1,4 +1,4 @@
-.mencion{
+.mention{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,22 +9,22 @@
 }
 
 
-.mencion p:nth-child(1){
+.mention p:nth-child(1){
     margin-block-start: 4rem;
     font : var (--fontBase);
     font-size: 1.5rem;
 }
-.mencion p:nth-child(2){
+.mention p:nth-child(2){
     font: var(--headLine5);
    
 }
 
-.mencion img{
+.mention img{
     width: 4rem;
 }
 
 @media screen and (min-width: 768px) {
-    .mencion{
+    .mention{
         padding: 12.5rem;
     }
 }

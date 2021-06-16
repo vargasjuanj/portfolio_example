@@ -1,20 +1,19 @@
 /* Se dividen las responsabilidades */
+
 @import "button.css";
 @import "header.css";
 @import "icon.css";
 @import "hero.css";
 @import "wrapper.css";
 @import "menu.css";
-@import "mencion.css";
-@import "comentario.css";
+@import "mention.css";
+@import "commentary.css";
 :root {
     /* Documentar estilos */
     /* los estilos del design system de Figma se colocarian como variables */
-  
     /*Estructura de font ->  font-style, font-variant, font-weight, font-size, line-height y font-family */
-  
-   --fontBase: 'Poppins', sans-serif;
-    --headLine1: bold 3.125rem/9.6069rem var(--fontBase); 
+    --fontBase: 'Poppins', sans-serif;
+    --headLine1: bold 3.125rem/9.6069rem var(--fontBase);
     --headLine2: bold 3.6875rem/5.9375rem var(--fontBase);
     --headLine3: bold 3rem/4.8125rem var(--fontBase);
     --headLine4: bold 2.125rem/3.4375rem var(--fontBase);
@@ -22,15 +21,12 @@
     --body1: 0.875rem/1.5625rem var(--fontBase);
     --body2: 1rem/1.375rem var(--fontBase);
     --button: bold 1rem/1.375rem var(--fontBase);
-    --caption:  0.75rem/1.125rem var(--fontBase);
+    --caption: 0.75rem/1.125rem var(--fontBase);
     --purple: #310A90;
     --green: #42E2B8;
     --white: white;
-
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
 }
-
-
 
 body {
     /* Un degradado es una imagen. Con esto solo, se va a ver cotado, por lo tanto se aumenta con vh  para adaptarse la altura a cualquier tamaño de pantalla*/
@@ -38,4 +34,12 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+
+    /* 
+      hace un desplazamiento suave y no tan brusco.
+       Lo único a tener en cuenta es que no te permite modificar el tiempo del desplazamiento.
+      */
+        
+     scroll-behavior: smooth
+    
 }
