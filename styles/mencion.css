@@ -1,0 +1,20 @@
+.mencion{
+    margin: auto;
+    text-align: center;
+  
+}
+
+
+.mencion p:nth-child(1){
+    margin-block-start: 4rem;
+    font : var (--fontBase);
+    font-size: 1.5rem;
+}
+.mencion p:nth-child(2){
+    font: var(--headLine5);
+    max-width: 56.25rem;
+}
+
+.mencion img{
+    width: 10%;
+}
