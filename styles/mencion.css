@@ -1,7 +1,11 @@
 .mencion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
     text-align: center;
-  
+    padding: 2.5rem 1rem;
+
 }
 
 
@@ -12,9 +16,15 @@
 }
 .mencion p:nth-child(2){
     font: var(--headLine5);
-    max-width: 56.25rem;
+   
 }
 
 .mencion img{
-    width: 10%;
+    width: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .mencion{
+        padding: 12.5rem;
+    }
 }
