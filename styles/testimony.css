@@ -1,0 +1,56 @@
+.testimony{
+    padding-block-start: 2.5rem;
+    padding-block-end: 2.5rem;
+}
+
+.testimony-description{
+    /* Por defecto son stretc, por eso se estiran ocupando el ancho de todo el contenedor, si queremos separación e smuy bueno usar gap */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimony-title{
+      /* le quito el stretch */
+      background: var(--purple);
+      align-self: flex-start;
+      color: var(--white);
+      font: var(--headline5);
+      text-decoration: none;
+      padding-inline-start: 0.25rem;
+      padding-inline-end: 0.25rem;
+      padding-block-start: 0.5rem;
+      padding-block-end: 0.5rem;
+      /* x y blur color */
+      box-shadow: -0.25rem 0 .25rem 0 var(--white);
+     /* para que la sombra blanca de la izquierda no se salga del contenedor */
+     margin-inline-start: 0.25rem;
+}
+
+.testimony-image img{
+    max-inline-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .testimony{
+        display: flex; 
+        align-items: center;
+        padding-block-start: 5rem;
+        padding-block-end: 5rem;
+          
+    }
+    .testimony-description{
+        flex: 1; /* se reparten en igual medida el espacio vacio con la imagen*/
+    }
+
+    /* even me está seleccionando en este caso los testimonios impares y odd selecciona los pares . Luego seleccione la imagen de cada testiimonio  y le cambio el orden para que salga en ziczac*/
+    .testimony:nth-child(even) .testimony-image{
+        order: 1;
+        flex: 1;
+        text-align: center;
+    }
+    .testimony:nth-child(odd) .testimony-image{
+        flex: 1;
+    }
+
+}

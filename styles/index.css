@@ -8,6 +8,9 @@
 @import "menu.css";
 @import "mention.css";
 @import "commentary.css";
+@import "testimony.css";
+@import "social.css";
+
 :root {
     /* Documentar estilos */
     /* los estilos del design system de Figma se colocarian como variables */

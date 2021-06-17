@@ -16,8 +16,9 @@
         <header class="header">
 
             <img src="./assets/img/LOGO.png" width="70" height="20" alt="Logo">
+<!-- aria-label es para etiquetar aquellos elementos no semanticos, que usando la extension landmark de google chrome, por ejeplo, podemos ver las partes de una pagina -->
 
-            <nav class="menu">
+            <nav  aria-label="main-navigation" class="menu">
                 <ul>
                     <li>
                         <!-- Navega hacia el id main del hero -->
@@ -34,8 +35,7 @@
             <button class="button">Curriculum</button>
         </header>
         <!-- El espacio entre los botones se da por reducir todo el content de cada, a, los espacios vacios al costado de img ocupan espacio, el espacio de separacion -->
-
-        <section class="hero" id="main">
+        <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
                 <img src="./assets/img/user.png" width="338" height="330" alt="User">
 
@@ -43,10 +43,10 @@
             <div class="hero-description">
                 <h1>
                     <span>¡Hola a Todos!</span>
-                    <span>Soy Jaume</span>
+                    <span>Soy Juan</span>
                 </h1>
                 <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-                <div class="hero-social">
+                <div class="social">
                     <a class="button-icon" href="tel:12456789"><img src="./assets/img/icons/icon-phone.svg" alt=""></a>
                     <a class="button-icon" href="tel:12456789"><img src="./assets/img/icons/icon-important_mail.svg"
                             alt=""></a>
@@ -69,16 +69,77 @@
             <img src="./assets/img/icons/icons-down.svg" alt="">
 
         </section>
-        <div style="margin-top:5rem;"></div>
+
+        <div style="margin-top: 5rem;"></div>
+
         <section class="commentary">
-            <img src="./assets/img/user.png" alt="">
-            <p>Aquí hay algunos que me gustaría compartir.</p>
-            <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e
-                increíbles</p>
+            <img src="./assets/img/testimonio.png" alt="">
+            <p>"juan ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+            <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
         </section>
+
+       <div class="testimony">
+            <div class="testimony-image">
+                <img src="./assets/img/projects/project1.png" alt="">
+            </div>
+
+            <div class="testimony-description">
+                <a class="testimony-title" href="https://juanjovargas443377@gmail.com" target="_blank">juanjovargas443377@gmail.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.</p>
+                    <a href="https://github.com/vargasjuanj" class="button is-secondary" target="_blank">Ver Código</a>
+                    <a href="https://heroku.com/vargasjuanj" class="button" target="_blank">Ver Proyecto</a>
+            </div>
+
+        </div>
+
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./assets/img/projects/project2.png" alt="">
+            </div>
+
+            <div class="testimony-description">
+                <a class="testimony-title" href="https://juanjovargas443377@gmail.com" target="_blank">juanjovargas443377@gmail.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.</p>
+                    <a href="https://github.com" class="button is-secondary" target="_blank">Ver Código</a>
+                    <a href="https://heroku.com" class="button" target="_blank">Ver Proyecto</a>
+            </div>
+
+        </div>
+
+
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./assets/img/projects/project3.png" alt="">
+            </div>
+
+            <div class="testimony-description">
+                <a class="testimony-title" href="https://juanjovargas443377@gmail.com" target="_blank">juanjovargas443377@gmail.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.</p>
+                    <a href="https://github.com" class="button is-secondary" target="_blank">Ver Código</a>
+                    <a href="https://heroku.com" class="button" target="_blank">Ver Proyecto</a>
+            </div>
+
+        </div>
+
     </div>
-
-
+<!-- 
+<footer>
+    <div class="social">
+        <a class="button-icon" href="tel:12456789"><img src="./assets/img/icons/icon-phone.svg" alt=""></a>
+        <a class="button-icon" href="tel:12456789"><img src="./assets/img/icons/icon-important_mail.svg"
+                alt=""></a>
+        <a class="button-icon" href="tel:12456789"><img src="./assets/img/icons/icon-instagram.svg"
+                alt=""></a>
+        <a class="button-icon" href="tel:12456789"><img src="./assets/img/icons/icon-twitter_squared.svg"
+                alt=""></a>
+    </div>
+    <p>
+        Copyright 2021 - Todos los derechos reservados.
+    </p>
+</footer> -->
 
 </body>
 
