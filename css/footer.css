@@ -31,13 +31,15 @@
 
 
 @media screen and (min-width:1024px) {
-    .footer{
-        padding-block-start: 40px;
-        padding-block-end: 40px;
-    }
     .footer-copyright{
         display: flex;
-        gap: 8px;
+        gap: 0.5rem;
     }
 
+    .footer{
+        /* para separar entre fronteras se usa el margin */
+        margin-block-start: 2.5rem;
+        margin-block-end: 2.5rem;
+    }
+  
 }

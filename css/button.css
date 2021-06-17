@@ -21,6 +21,6 @@
 .button.is-secondary{
 background: unset; /* si tiene valores de propiedades heredadas, unset le quita el valor del background heredado */
 color: var(--purple);
-border: 2px solid var(--purple)
+border: 0.125rem solid var(--purple)
 
 }

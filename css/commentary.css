@@ -8,7 +8,7 @@
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(2.5rem);
     border-radius: 1.5rem;
-    box-shadow: -1px -1px white;
+    box-shadow: -0.0625rem -0.0625rem white;
 }
 
 .commentary p:nth-child(1) {
@@ -25,7 +25,7 @@
 .commentary img {
     inline-size: 5rem;
     block-size: 5rem;
-    border-radius: 130px;
+    border-radius: 8.125rem;
 }
 
 @media screen and (min-width: 768px) {
