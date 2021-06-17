@@ -10,6 +10,7 @@
 @import "commentary.css";
 @import "testimony.css";
 @import "social.css";
+@import "footer.css";
 
 :root {
     /* Documentar estilos */
@@ -37,7 +38,7 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
-
+margin: 0;
     /* 
       hace un desplazamiento suave y no tan brusco.
        Lo único a tener en cuenta es que no te permite modificar el tiempo del desplazamiento.
