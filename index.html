@@ -12,28 +12,35 @@
 </head>
 
 <body>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+
+                <img src="./assets/img/LOGO.png" width="70" height="20" alt="Logo">
+                <!-- aria-label es para etiquetar aquellos elementos no semanticos, que usando la extension landmark de google chrome, por ejeplo, podemos ver las partes de una pagina -->
+
+                <nav aria-label="main-navigation" class="menu">
+                    <ul>
+                        <li>
+                            <!-- Navega hacia el id main del hero -->
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+
     <div class="wrapper">
-        <header class="header">
 
-            <img src="./assets/img/LOGO.png" width="70" height="20" alt="Logo">
-            <!-- aria-label es para etiquetar aquellos elementos no semanticos, que usando la extension landmark de google chrome, por ejeplo, podemos ver las partes de una pagina -->
-
-            <nav aria-label="main-navigation" class="menu">
-                <ul>
-                    <li>
-                        <!-- Navega hacia el id main del hero -->
-                        <a class="is-active" href="#main">Hola</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Hablemos</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="button">Curriculum</button>
-        </header>
         <!-- El espacio entre los botones se da por reducir todo el content de cada, a, los espacios vacios al costado de img ocupan espacio, el espacio de separacion -->
         <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
@@ -72,7 +79,7 @@
 
         <div style="margin-top: 5rem;"></div>
 
-        <section class="commentary">
+        <section class="testimony">
             <img src="./assets/img/testimonio.png" alt="">
             <p>"juan ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6
                 meses solo les llevó 1,5 meses ".</p>
@@ -80,12 +87,12 @@
         </section>
 
         <section id="projects">
-            <div class="testimony">
-                <div class="testimony-image">
+            <div class="project">
+                <div class="project-image">
                     <img src="./assets/img/projects/project1.png" alt="">
                 </div>
 
-                <div class="testimony-description">
+                <div class="project-description">
                     <a class="title" href="https://juanjovargas443377@gmail.com"
                         target="_blank">juanjovargas443377@gmail.com</a>
                     <p>Accede a más de 120 proyectos que te ayudarán a mejorar
@@ -96,12 +103,12 @@
 
             </div>
 
-            <div class="testimony">
-                <div class="testimony-image">
+            <div class="project">
+                <div class="project-image">
                     <img src="./assets/img/projects/project2.png" alt="">
                 </div>
 
-                <div class="testimony-description">
+                <div class="project-description">
                     <a class="title" href="https://juanjovargas443377@gmail.com"
                         target="_blank">juanjovargas443377@gmail.com</a>
                     <p>Accede a más de 120 proyectos que te ayudarán a mejorar
@@ -113,12 +120,12 @@
             </div>
 
 
-            <div class="testimony">
-                <div class="testimony-image">
+            <div class="project">
+                <div class="project-image">
                     <img src="./assets/img/projects/project3.png" alt="">
                 </div>
 
-                <div class="testimony-description">
+                <div class="project-description">
                     <a class="title" href="https://juanjovargas443377@gmail.com"
                         target="_blank">juanjovargas443377@gmail.com</a>
                     <p>Accede a más de 120 proyectos que te ayudarán a mejorar
@@ -129,6 +136,8 @@
 
             </div>
         </section>
+
+
         <form action="" method="GET" class="form" id="contact">
             <h2 class="title">Hablemos</h2>
             <p class="form-copy">
@@ -150,6 +159,7 @@
             </div>
             <button class="button" type="submit">Enviar Mensaje</button>
         </form>
+
         <footer class="footer">
             <div class="footer-logo">
                 <img src="./assets/img/LOGO.png" width="70" height="20" alt="Logo">

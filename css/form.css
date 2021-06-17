@@ -9,7 +9,7 @@
 }
 
 .form .title{
-    margin: o;
+    margin: 0;
 }
 
 /* en el  caso de q la clase copy se reutilizara en varios componentes hacemos uso del .form .copy, en este caso es solo propia del formulario */
@@ -29,7 +29,11 @@ text-align: center;
     font: var(--button);
 }
 
-
+.form label:after { 
+    content: " *";
+     color: red;
+     font-weight: 300; 
+}
 .form input, textarea{
     border: 0.125rem solid var(--grey);
     border-radius: 0.5rem;
@@ -38,7 +42,9 @@ text-align: center;
     padding-block-start: 0.75rem;
     padding-block-end: 0.75rem;
     font: var(--body1);
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
 }
+
 
 @media screen and (min-width:768px){
     .form .title{

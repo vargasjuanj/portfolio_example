@@ -1,11 +1,13 @@
-.header {
+.header{
+        /* posicionando header */
+        position: sticky;
+        top: 0; /* empieza desde arriba */
+        backdrop-filter: blur(0.8rem); /* cuando se pasa por arriba de un elemento */
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     block-size: 5rem;
-
-    /* posicionando header */
-    position: sticky;
-    top: 0; /* empieza desde arriba */
-    backdrop-filter: blur(0.8rem); /* cuando se pasa por arriba de un elemento */
 }
