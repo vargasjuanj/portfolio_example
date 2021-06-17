@@ -47,6 +47,6 @@ margin: 0;
        Lo único a tener en cuenta es que no te permite modificar el tiempo del desplazamiento.
       */
         
-     scroll-behavior: smooth
+     scroll-behavior: smooth;
     
 }
